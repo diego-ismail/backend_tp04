@@ -1,0 +1,9 @@
+Session y Cookies
+Para esta tarea se tienen que agregar rutas con los siguientes métodos:
+
+una ruta con el método PUT la cual actualice el modelo según su ID y reciba la información a actualizar por BODY
+una ruta con el método DELETE que borre un contenido de nuestro modelo según su ID.
+También tendremos que implementar validaciones:
+
+implementar express-validator para los casos de POST y PUT
+crear un middleware que verifique si el ID ingresado es correcto y implementarlo para PUT y DELETE
