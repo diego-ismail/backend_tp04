@@ -7,3 +7,5 @@ También tendremos que implementar validaciones:
 
 implementar express-validator para los casos de POST y PUT
 crear un middleware que verifique si el ID ingresado es correcto y implementarlo para PUT y DELETE
+
+
