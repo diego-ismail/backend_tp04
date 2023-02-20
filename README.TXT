@@ -23,7 +23,7 @@ Para ver la lista de todos los usuarios:
 Para ver un usuario en particular:
     usar el método GET http://localhost:3000/usuarios/ver/63f2adab49a77ffe20742145 (siendo 63f2adab49a77ffe20742145 el id de un usuario ya existente)
 
-    Para ver un usuario en particular:
+Para ver un usuario en particular:
     usar el método PUT http://localhost:3000/usuarios/editar/63f2adab49a77ffe20742145 (siendo 63f2adab49a77ffe20742145 el id de un usuario ya existente)
     con un json son estos campos:
         {
@@ -32,3 +32,5 @@ Para ver un usuario en particular:
         "password":"hash",
         "sexo" : "M"|"F"
         }
+Para borrar un usuario
+    usar el metodo DELETE http://localhost:3000/usuarios/eliminar/63f2adab49a77ffe20742145 (siendo 63f2adab49a77ffe20742145 el id de un usuario ya existente)
