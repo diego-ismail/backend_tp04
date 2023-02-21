@@ -4,7 +4,7 @@ const controllerUser = require("../controller/userController")
 const {check} = require("express-validator")
 const {validarID} = require("../middleware/validarId")
 
-// su metodo / su exprecion  / su funcion
+
 router.get('/ver/:id', validarID, controllerUser.listSingleUser)
 router.get('/vertodos', controllerUser.listUsers)
 router.post('/crear',[
